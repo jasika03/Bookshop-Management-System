@@ -3,7 +3,6 @@
 A Python-based Bookshop Management System using MySQL for database management.  
 This project helps manage books, purchases, billing, stock updates, and workers in a bookshop.
 
----
 ## Features
 
 - Add new books
@@ -17,7 +16,7 @@ This project helps manage books, purchases, billing, stock updates, and workers 
 - View workers details
 - MySQL database integration
 
----
+
 
 ## Technologies Used
 
@@ -25,7 +24,7 @@ This project helps manage books, purchases, billing, stock updates, and workers 
 - MySQL
 - mysql-connector-python
 
----
+
 
 ## Database Tables
 
@@ -54,9 +53,6 @@ Stores worker information:
 - Salary
 - Mobile Number
 
-
-
----
 
 ## Installation
 
@@ -92,7 +88,6 @@ password="YourPasswordHere"
 python "BookShop Management System.py"
 ```
 
----
 
 ## Requirements
 
@@ -100,7 +95,6 @@ python "BookShop Management System.py"
 * MySQL Server
 * mysql-connector-python library
 
----
 
 ## Project Structure
 
@@ -111,7 +105,6 @@ Bookshop-Management-System/
 └── README.md
 ```
 
----
 
 ## Sample Menu
 
@@ -127,16 +120,6 @@ Bookshop-Management-System/
 9. View Workers
 0. Exit
 ```
-
----
-
-## Author
-
-Jasika
-B.Tech CSE Student at Maharishi Markandeshwar University (MMDU)
-
----
-
 ## Future Improvements
 
 * GUI using Tkinter
@@ -145,12 +128,12 @@ B.Tech CSE Student at Maharishi Markandeshwar University (MMDU)
 * Sales Reports
 * PDF Bill Generation
 * Barcode Scanner Integration
+ 
+## Author
 
----
+Jasika
+- B.Tech CSE Student at Maharishi Markandeshwar University (MMDU)
 
 ## License
 
 This project is created for educational purposes.
-
-```
-```
