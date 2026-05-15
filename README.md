@@ -1,4 +1,5 @@
-````
+# Bookshop Management System
+````md
 # Bookshop Management System
 
 A Python-based Bookshop Management System using MySQL for database management.  
