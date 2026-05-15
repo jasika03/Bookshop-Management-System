@@ -60,7 +60,7 @@ Stores worker information:
 ---
 
 ## Installation
-
+````
 ### 1. Clone the Repository
 
 ```bash
