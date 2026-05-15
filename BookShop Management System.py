@@ -1,16 +1,25 @@
 import mysql.connector
 from datetime import datetime
 
-# Connect to MySQL with your database name
-db_connection=mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="YOUR_PASSWORD",
-        database="bookyyy"
-    )
+db_connection = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="YourPasswordHere"
+)
 
-# Create a cursor
 cursor = db_connection.cursor()
+cursor.execute("CREATE DATABASE IF NOT EXISTS bookshop_db")
+print("Database created successfully")
+
+db_connection = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="YourPasswordHere",
+    database="bookshop_db"
+)
+cursor = db_connection.cursor()
+
+print("Connected to bookshop_db successfully")
 
 def create_tables():
     cursor.execute("""
