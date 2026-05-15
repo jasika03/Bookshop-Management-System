@@ -1,9 +1,11 @@
 # Bookshop Management System
 ````md
+````
 # Bookshop Management System
 
 A Python-based Bookshop Management System using MySQL for database management.  
 This project helps manage books, purchases, billing, stock updates, and workers in a bookshop.
+````
 ````
 ---
 ## Features
@@ -56,7 +58,7 @@ Stores worker information:
 - Salary
 - Mobile Number
 
-````
+
 
 ---
 
